@@ -12,7 +12,7 @@ import numpy as np
 st.set_page_config(page_title="SSScheduler", layout="wide")
 
 # 💡 ご自身のStreamlitアプリのURLに変更してください
-APP_BASE_URL = "https://schedule-adjust-testing.streamlit.app/"
+APP_BASE_URL = "https://tschedule-adjust-slack.streamlit.app/"
 
 # ==========================================
 # UX改善: ロード中表示＆時間割テーブル用CSS
