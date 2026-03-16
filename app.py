@@ -9,7 +9,7 @@ import requests
 import streamlit.components.v1 as components
 import numpy as np
 
-st.set_page_config(page_title="SSScheduler", layout="wide")
+st.set_page_config(page_title="日程調整サンプル for Slack", layout="wide")
 
 # 💡 ご自身のStreamlitアプリのURLに変更してください
 APP_BASE_URL = "https://tschedule-adjust-slack.streamlit.app/"
@@ -488,7 +488,7 @@ def main():
     if not st.session_state.auth:
         _, col_login, _ = st.columns([1, 2, 1])
         with col_login:
-            st.title("SSScheduler")
+            st.title("日程調整サンプル for Slack")
             
             if "jump_to_event" in st.session_state:
                 st.info("👋 イベントへの招待が届いています。ログインまたは新規登録をして回答してください。")
